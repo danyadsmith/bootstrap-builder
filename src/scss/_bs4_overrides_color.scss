@@ -1,0 +1,65 @@
+$theme-color-001:   #000000;
+$theme-color-002:   #cccccc;
+$theme-color-003:   #666666;
+$theme-color-light: #f8f9fa;
+$theme-color-dark:  #343a40;
+
+$red:        hsla(354, 70%, 54%, 1);  // #DC3545
+$vermilion:  hsla(14, 100%, 56%, 1);  // #FF5520
+$orange:     hsla(27, 98%, 53%, 1);   // #FD7E13
+$amber:      hsla(45, 100%, 52%, 1);  // #ffc000
+$yellow:     hsla(53, 100%, 57%, 1);  // #FFe724
+$chartreuse: hsla(88, 81%, 43%, 1);   // #72C415
+$green:      hsla(134, 61%, 41%, 1);  // #28A745
+$teal:       hsla(161, 70%, 46%, 1);  // #23c895
+$viridian:   hsla(184, 72%, 43%, 1);  // #1EB1BB
+$blue:       hsla(201, 99%, 39%, 1);  // #0181C5
+$indigo:     hsla(224, 92%, 28%, 1);  // #062989
+$violet:     hsla(253, 53%, 50%, 1);  // #583CC1
+$purple:     hsla(277, 63%, 38%, 1);  // #7024A0
+$magenta:    hsla(319, 73%, 47%, 1);  // #CE2097
+$pink:       hsla(1, 100%, 75%, 1);   // #ff8381
+$brown:      hsla(32, 75%, 22%, 1);   // #643C0E
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$colors: (
+  "red": $red,
+  "vermilion": $vermilion,
+  "orange": $orange,
+  "amber": $amber,
+  "yellow": $yellow,
+  "chartreuse": $chartreuse,
+  "green": $green,
+  "viridian": $viridian,
+  "blue": $blue,
+  "indigo": $indigo,
+  "violet": $violet,
+  "purple": $purple,
+  "magenta": $magenta,
+  "teal": $teal,
+  "pink": $pink,
+  "brown": $brown,
+);
+
+$theme-colors: (
+  "primary": $theme-color-001,
+  "secondary": $theme-color-002,
+  "info": $theme-color-003,
+  "light": $theme-color-light,
+  "dark": $theme-color-dark,
+  "success": $green,
+  "warning": $amber,
+  "danger": $red
+);
+

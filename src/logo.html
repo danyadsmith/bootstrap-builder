@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <title>Style Guide</title>
+</head>
+
+<body>
+  <body class="theme">
+    <header class="jumbotron">
+      <div class="container">
+      <h1 class="display-1">Style Guide</h1>
+      <p class="lead">This manual of style outlines standards for the design of pages, components, and elements in web sites and web applications developed for our organization.</p>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="logo.html">Logo and Brand</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="layouts.html">Page Layouts</a>
+        </li>
+      </ul>
+      </div>
+    </header>
+
+    <div class="page-content container">
+      <div class="card mb-4">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-drafting-compass"></i> Logo</span>
+            <a data-toggle="collapse" href="#collapse-logo" aria-expanded="true" 
+              aria-controls="collapse-logo" id="heading-logo" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-logo" class="collapse show" aria-labelledby="heading-logo" style="">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="img/img-placeholders/image01.png" alt="Logo Placeholder" class="card-img-top" />
+                </div>
+              </div>
+              <div class="col-md-8 mt-2">
+                <p>
+                  This paragraph provides a description of a custom logo design for a
+                  project. It provides the rationale for typography, colors, elements, and 
+                  other significant design elements. It elucidates metaphors communicated 
+                  by the logo design. Custom fonts included in the design are mentioned 
+                  with reference links.
+                </p>
+              </div>
+            </div>         
+          </div>
+        </div>
+      </div>
+      
+    <footer>
+    </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>
+

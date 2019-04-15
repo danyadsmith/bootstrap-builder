@@ -1,0 +1,928 @@
+<!DOCTYPE htmlFFF8E2>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <title>Style Guide</title>
+</head>
+
+<body>
+  <body class="theme">
+    <header class="jumbotron">
+      <div class="container">
+      <h1 class="display-1">Style Guide</h1>
+      <p class="lead">This guide outlines our standards for the design of pages, components, and elements in web sites and web applications.</p>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logo.html">Logo and Brand</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="layouts.html">Page Layouts</a>
+        </li>
+      </ul>
+      </div>
+    </header>
+    <div class="page-content container">
+
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-palette"></i> Color Palette</span>
+            <a data-toggle="collapse" href="#collapse-color" aria-expanded="true" 
+               aria-controls="collapse-color" id="heading-color" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-color" class="collapse show" aria-labelledby="heading-color" style="">
+          <div class="card-body">
+            <div class="d-md-flex justify-content-between text-center">
+              <div class="swatch bg-primary text-light">
+                <p class="m-0 p-4 px-sm-2">Primary</p>
+              </div>
+              <div class="swatch bg-secondary">
+                <p class="m-0 p-4 px-sm-2">Secondary</p>
+              </div>
+              <div class="swatch bg-info">
+                <p class="m-0 p-4 px-sm-2 text-light">Info</p>
+              </div>
+              <div class="swatch bg-dark">
+                <p class="m-0 p-4 px-sm-2 text-light">Dark</p>
+              </div>
+              <div class="swatch bg-light">
+                <p class="m-0 p-4 px-sm-2">Light</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-font"></i> Typography</span>
+            <a data-toggle="collapse" href="#collapse-typography" aria-expanded="true" 
+               aria-controls="collapse-typography" id="heading-typography" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-typography" class="collapse show" aria-labelledby="heading-typography">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="lead">Lead paragraph</p>
+                <p>This is the default style for paragraphs</p>
+                <p class="font-italic">This is what paragraph text looks like when italicized.</p>
+                <p class="font-weight-bold">This is what paragraph text looks like when bold.</p>
+                <p class="text-monospace">This is a monospace font, typically used for code samples.</p>
+                <p class="text-lowercase">This is what lowercase text looks like.</p>
+                <p class="text-uppercase">This is what uppercase text looks like.</p>
+                <p class="text-capitalize">This is capitalized text</p>
+                <blockquote class="blockquote">
+                  <p>Typography is two-dimensional architecture, based on experience and imagination, guided by rules and readability.</p>
+                  <p class="blockquote-footer text-right mr-4">Herman Zapf</p>
+                </blockquote>
+              </div>
+              <div class="col-md-6">
+                <h1 class="display-1">Display Heading One</h1>
+                <h2 class="display-2">Display Heading Two</h2>
+                <h3 class="display-3">Display Heading Three</h3>
+                <h4 class="display-4">Display Heading Four</h4>
+                <br />
+                <h1>Heading One</h1>
+                <h2>Heading Two</h2>
+                <h3>Heading Three</h3>
+                <h4>Heading Four</h4>
+                <h5>Heading Five</h5>
+                <h6>Heading Six</h6>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-list"></i> Lists</span>
+            <a data-toggle="collapse" href="#collapse-lists" aria-expanded="true" 
+               aria-controls="collapse-lists" id="heading-lists" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-lists" class="collapse show" aria-labelledby="heading-lists">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Unordered List</h3>
+                <ul>
+                  <li>This is the first list item</li>
+                  <li>This is the second list item</li>
+                  <li>This is the third list item</li>
+                  <li>This is the fourth list item</li>
+                  <li>This is the fifth list item</li>
+                </ul>
+                <h3>Ordered List</h3>
+                <ol>
+                  <li>This is the first list item</li>
+                  <li>This is the second list item</li>
+                  <li>This is the third list item</li>
+                  <li>This is the fourth list item</li>
+                  <li>This is the fifth list item</li>
+                </ol>
+              </div>
+              <div class="col-md-6">
+                <h3>Definition List</h3>
+                <dl>
+                  <dt>Definition Term One</dt>
+                  <dd class="metadata">Definition metadata</dd>
+                  <dd>Second definition</dd>
+                  <dt>Definition Term Two</dt>
+                  <dd>First definition</dd>
+                  <dd>Second definition</dd>
+                  <dd>Third definition</dd>
+                  <dd>Fourth definition</dd>
+                  <dt>Definition Term Two</dt>
+                  <dd>First definition</dd>
+                  <dd>Second definition</dd>
+                  <dd>Third definition</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-table"></i> Tables</span>
+            <a data-toggle="collapse" href="#collapse-tables" aria-expanded="true" 
+               aria-controls="collapse-tables" id="heading-tables" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-tables" class="collapse show" aria-labelledby="heading-tables">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Default Table</h3>
+                <table class="table table-bordered">
+                  <thead>
+                    <th>Column One</th>
+                    <th>Column Two</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Row 1</td>
+                      <td>Row 1</td>
+                    </tr>
+                    <tr>
+                      <td>Row 2</td>
+                      <td>Row 2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h3>Striped Table</h3>
+                <table class="table table-striped">
+                  <thead>
+                    <th>Column One</th>
+                    <th>Column Two</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Row 1</td>
+                      <td>Row 1</td>
+                    </tr>
+                    <tr>
+                      <td>Row 2</td>
+                      <td>Row 2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-md-6">
+                <h3>Small Table</h3>
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <th>Column One</th>
+                    <th>Column Two</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Row 1</td>
+                      <td>Row 1</td>
+                    </tr>
+                    <tr>
+                      <td>Row 2</td>
+                      <td>Row 2</td>
+                    </tr>
+                    <tr>
+                      <td>Row 3</td>
+                      <td>Row 3</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h3 class="mt-4">Small Hover Table</h3>
+                <table class="table table-sm table-hover">
+                  <thead>
+                    <th>Column One</th>
+                    <th>Column Two</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Row 1</td>
+                      <td>Row 1</td>
+                    </tr>
+                    <tr>
+                      <td>Row 2</td>
+                      <td>Row 2</td>
+                    </tr>
+                    <tr>
+                      <td>Row 3</td>
+                      <td>Row 3</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-code"></i> Components</span>
+            <a data-toggle="collapse" href="#collapse-components" aria-expanded="true" 
+               aria-controls="collapse-components" id="heading-components" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-components" class="collapse show" aria-labelledby="heading-components">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Navigation Menu</h3>
+                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                  <div class="container">
+                    <a href="#" class="navbar-brand">Responsive Navigation</a>
+                    <button class="navbar-toggler" data-toggle="collapse"
+                                                   data-target="#navbarNav">
+                      <i class="fa fa-bars"></i> 
+                    </button>
+                    <div id="navbarNav" class="collapse navbar-collapse">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-md-6">
+                <h3>Media</h3>
+                <div class="media">
+                  <img class="mr-3" src="img/img-placeholders/image01.png" style="width: 100px; height: auto;">
+                  <div class="media-body">
+                    The media component is used to display an image next to a block of text. 
+                  </div>
+                </div>
+                <h3>Progress Bars</h3>
+                <div class="progress mb-3">
+                  <div class="progress-bar" style="width:35%"></div>
+                </div>                
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped" style="width:35%"></div>
+                </div>
+                <h3>Alerts</h3>
+                <div class="alert alert-primary">
+                  <strong>Primary Alert</strong> Important message here...
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h3>Carousel</h3>
+                <div id="slider" class="carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#slider" data-slide-to="0"></li>
+                        <li data-target="#slider" data-slide-to="1"></li>
+                        <li data-target="#slider" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/img-placeholders/image01.png" alt="First Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img-placeholders/image02.png" alt="Second Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/img-placeholders/image03.png" alt="Third Slide">
+                        </div>
+                    </div>
+                    <!-- CONTROLS -->
+                    <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#slider" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-link"></i> Navigation Helpers</span>
+            <a data-toggle="collapse" href="#collapse-nav-components" aria-expanded="true" 
+               aria-controls="collapse-nav-components" id="heading-nav-components" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-nav-components" class="collapse show" aria-labelledby="heading-nav-components">
+         <div class="card-body">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Horizontal Navigation Menu</h3>
+              <ul class="nav">
+                <li class="nav-item"> <a class="nav-link" href="#">Item</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Item</a> </li>
+                <li class="nav-item"> <a href="#" class="nav-link">Item</a> </li>
+                <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+              </ul>
+              <h3>Horizontal Navigation Pills</h3>
+              <ul class="nav nav-pills my-4">
+                <li class="nav-item"> <a href="#" class="nav-link active">Nav pills</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Item</a> </li>
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu"> 
+                    <a class="dropdown-item" href="#">Option 1</a> 
+                    <a class="dropdown-item" href="#">Option 2</a>
+                    <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="#">Separated link</a> 
+                  </div>
+                </li>
+              </ul>
+              <h3>Button Dropdown Menus</h3>
+                <p>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+                </p>
+              <h3>Navigation Tabs</h3>
+              <ul class="nav nav-tabs">
+                <li class="nav-item"> <a href="#home" class="nav-link active" aria-controls="home" aria-selected="true" data-toggle="tab" id="home-tab" role="tab">Design</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#profile" aria-controls="profile" aria-selected="false" data-toggle="tab" id="profile-tab" role="tab">Content</a> </li>
+                <li class="nav-item"> <a href="#contact" class="nav-link" aria-controls="contact" aria-selected="false" data-toggle="tab" id="contact-tab" role="tab">Usability</a> </li>
+              </ul>
+              <div class="tab-content my-2" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <blockquote>
+                    <p>Design should never say, ‘Look at me.’ It should always say, ‘Look at this.’</p>
+                    <p class="blockquote-footer">David Craib</p>
+                    <p>A designer is a planner with an aesthetic sense.</p>
+                    <p class="blockquote-footer">Bruno Munari</p>
+                    <p>I think design covers so much more than the aesthetic. Design is fundamentally more. Design is usability. It is Information Architecture. It is Accessibility. This is all design.</p>
+                    <p class="blockquote-footer">Mark Boulton</p>
+                  </blockquote>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <blockquote>
+                    <p>“Quality, relevant content can't be spotted by an algorithm. You can't subscribe to it. You need people - actual human beings - to create or curate it.”</p>
+                    <p>“High-quality web content that's useful, usable, and enjoyable is one of the greatest competitive advantages you can create for yourself online.”</p>
+                    <p class="blockquote-footer">Kristina Halvorson, Content Strategy for the Web</p>
+                  </blockquote>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  <blockquote>
+                    <p class="text-uppercase"><small>Krug’s First Law of Usability</small></p>
+                    <p class="lead">Don’t make me think!</p>
+                    <p>For as long as I can remember, I’ve been telling people that
+                    this is my first law of usability.<p>
+                    <p>It’s the overriding principle—the ultimate tie breaker when
+                    deciding whether a design works or it doesn’t. If you have 
+                    room in your head for only one usability rule, make it this one.</p>
+                    <p>For instance, it means that as far as humanly possible, when
+                    I look at a Web page it should be self-evident. Obvious.
+                    Self-explanatory.</p>
+                    <p class="blockquote-footer">Steve Krug, <span class="text-italic">
+                      Don’t Make Me Think, Revisited<span></p>
+                  </blockquote> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h3>Breadcrumb Menu</h3>
+              <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Parent</a></li>
+                <li class="breadcrumb-item active">Page</li>
+              </ul>
+              <h3>Pagination Controls</h3>
+              <ul class="pagination mt-3">
+                <li class="page-item"> <a class="page-link" href="#" aria-label="Previous"> <span aria-hidden="true">«</span> <span class="sr-only">Previous</span> </a> </li>
+                <li class="page-item"> <a class="page-link" href="#">1</a> </li>
+                <li class="page-item"> <a class="page-link" href="#">2</a> </li>
+                <li class="page-item active"> <a class="page-link" href="#">3</a> </li>
+                <li class="page-item disabled"> <a class="page-link" href="#">4</a> </li>
+                <li class="page-item"> <a class="page-link" href="#" aria-label="Next"> <span aria-hidden="true">»</span> <span class="sr-only">Next</span> </a> </li>
+              </ul>
+              <h3>Vertical Navigation Menu</h3>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+              </ul> 
+              <h3>Accordion Menu</h3>
+              <div id="accordion" class="accordion mt-3">
+                <div class="card">
+                  <div class="card-header">
+                    <a href="#collapse1" data-parent="#accordion" data-toggle="collapse">
+                      Accordion Menu One
+                    </a>
+                  </div>
+                  <div id="collapse1" class="collapse">
+                    <div class="card-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                    </ul> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header">
+                    <a href="#collapse2" data-parent="#accordion" data-toggle="collapse">
+                      Accordion Menu Two
+                    </a>
+                  </div>
+
+                  <div id="collapse2" class="collapse">
+                    <div class="card-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                    </ul> 
+                    </div> 
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header">
+                    <a href="#collapse3" data-parent="#accordion" data-toggle="collapse">
+                      Accordion Menu Three
+                    </a>
+                  </div>
+
+                  <div id="collapse3" class="collapse">
+                    <div class="card-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                    </ul> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h3>Custom Accordion Menu</h3>
+              <div id="custom-accordion" class="custom-accordion mt-3">
+                <div class="card">
+                  <div class="card-header">
+                    <a href="#custom-collapse1" data-parent="#custom-accordion" data-toggle="collapse">
+                      Accordion Menu One
+                    </a>
+                  </div>
+                  <div id="custom-collapse1" class="collapse">
+                    <div class="card-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                    </ul> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header">
+                    <a href="#custom-collapse2" data-parent="#custom-accordion" data-toggle="collapse">
+                      Accordion Menu Two
+                    </a>
+                  </div>
+
+                  <div id="custom-collapse2" class="collapse">
+                    <div class="card-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                    </ul> 
+                    </div> 
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header">
+                    <a href="#custom-collapse3" data-parent="#custom-accordion" data-toggle="collapse">
+                      Accordion Menu Three
+                    </a>
+                  </div>
+
+                  <div id="custom-collapse3" class="collapse">
+                    <div class="card-body">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                    </ul> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div> 
+        </div>
+      </div>
+      
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fab fa-wpforms"></i> Forms</span>
+            <a data-toggle="collapse" href="#collapse-forms" aria-expanded="true" 
+               aria-controls="collapse-forms" id="heading-forms" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-forms" class="collapse show" aria-labelledby="heading-forms">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <form class="" method="post" action="">
+                  <div class="form-group">
+                    <input type="email" class="form-control form-control-sm" placeholder="Small input" name="email"> 
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Default input">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control form-control-lg" placeholder="Large input">
+                  </div>
+                </form>
+                <form class="my-3" method="post" action="">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Disabled input" id="disabledTextInput" disabled="">
+                  </div>
+                  <div class="form-group">
+                    <label for="favorite-color">Favorite Color</label>
+                    <select id="favorite-color" class="form-control">
+                      <option></option>
+                      <option>Red</option>
+                      <option>Vermilion</option>
+                      <option>Orange</option>
+                      <option>Amber</option>
+                      <option>Yellow</option>
+                      <option>Chartreuse</option>
+                      <option>Green</option>
+                      <option>Viridian</option>
+                      <option>Blue</option>
+                      <option>Indigo</option>
+                      <option>Violet</option>
+                      <option>Purple</option>
+                      <option>Magenta</option>
+                      <option>Pink</option>
+                      <option>Brown</option>
+                    </select>                    
+                  </div>
+                    <div class="custom-file mb-3">
+                      <label class="custom-file-label" for="file">Choose file</label>
+                      <input class="custom-file-input" type="file" id="file">
+                    </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control is-valid" placeholder="First name" id="validationServer01" required="" value="Valid">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control is-invalid" placeholder="First name" id="validationServer01" required="" value="Invalid">
+                    <div class="invalid-feedback">Please provide a valid input.</div>
+                  </div>
+                </form>                
+              </div>
+              <div class="col-md-6">
+                <form>
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadio1">Yes</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                      <label class="custom-control-label" for="customRadio2">No</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="membership">Membership Level</label>
+                      <input type="range" class="custom-range" min="1" max="5" step="1" />
+                    </div>
+                    <div class="form-group">  
+                      <span class="switch">
+                        <input type="checkbox" class="switch" id="switch-normal">
+                        <label for="switch-normal">Normal</label>
+                      </span>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" rows="10"></textarea>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-stop"></i> Buttons</span>
+            <a data-toggle="collapse" href="#collapse-buttons" aria-expanded="true" 
+               aria-controls="collapse-buttons" id="heading-buttons" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-buttons" class="collapse show" aria-labelledby="heading-buttons">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>            
+                </p>
+                <p>
+                <button type="button" class="btn btn-primary active">Active</button>
+                <button type="button" class="btn btn-primary" disabled>Disabled</button>
+                <button type="button" class="btn btn-secondary active">Active</button>
+                <button type="button" class="btn btn-secondary" disabled>Disabled</button>
+                </p>
+              </div>
+              <div class="col-md-6">
+                <p>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-success btn-lg">Large button</button>
+                <button type="button" class="btn btn-danger btn-lg">Large button</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-success btn-sm">Small button</button>
+                <button type="button" class="btn btn-danger btn-sm">Small button</button>
+                </p>
+                <p>
+                <button type="button" class="btn btn-success btn-lg btn-block">Block level button</button>
+                <button type="button" class="btn btn-danger btn-lg btn-block">Block level button</button>            
+                </p>
+                <p>
+                <button type="button" class="btn btn-success active">Active</button>
+                <button type="button" class="btn btn-success" disabled>Disabled</button>
+                <button type="button" class="btn btn-danger active">Active</button>
+                <button type="button" class="btn btn-danger" disabled>Disabled</button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-swatchbook"></i> Accent Colors</span>
+            <a data-toggle="collapse" href="#collapse-accents" aria-expanded="true" 
+               aria-controls="collapse-accents" id="heading-accents" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-accents" class="collapse show" aria-labelledby="heading-accents" style="">
+          <div class="card-body">
+            <div class="d-md-flex justify-content-between text-center">
+              <div class="swatch bg-red">
+                <p class="m-0 p-4 px-sm-2">Red</p>
+              </div>
+              <div class="swatch bg-vermilion">
+                <p class="m-0 p-4 px-sm-2">Vermilion</p>
+              </div>
+              <div class="swatch bg-orange">
+                <p class="m-0 p-4 px-sm-2">Orange</p>
+              </div>
+              <div class="swatch bg-amber">
+                <p class="m-0 p-4 px-sm-2">Amber</p>
+              </div>
+              <div class="swatch bg-yellow">
+                <p class="m-0 p-4 px-sm-2">Yellow</p>
+              </div>
+            </div>
+            <div class="d-md-flex my-md-3 justify-content-between text-center">
+              <div class="swatch bg-chartreuse">
+                <p class="m-0 p-4 px-sm-2">Chartreuse</p>
+              </div>
+              <div class="swatch bg-green">
+                <p class="m-0 p-4 px-sm-2">Green</p>
+              </div>
+              <div class="swatch bg-viridian">
+                <p class="m-0 p-4 px-sm-2">Viridian</p>
+              </div>
+              <div class="swatch bg-blue">
+                <p class="m-0 p-4 px-sm-2">Blue</p>
+              </div>
+              <div class="swatch bg-indigo text-light">
+                <p class="m-0 p-4 px-sm-2">Indigo</p>
+              </div>
+            </div>
+            <div class="d-md-flex my-md-3 justify-content-between text-center">
+              <div class="swatch bg-violet">
+                <p class="m-0 p-4 px-sm-2">Violet</p>
+              </div>
+              <div class="swatch bg-purple">
+                <p class="m-0 p-4 px-sm-2">Purple</p>
+              </div>
+              <div class="swatch bg-magenta">
+                <p class="m-0 p-4 px-sm-2">Magenta</p>
+              </div>
+              <div class="swatch bg-pink">
+                <p class="m-0 p-4 px-sm-2">Pink</p>
+              </div>
+              <div class="swatch bg-brown text-light">
+                <p class="m-0 p-4 px-sm-2">Brown</p>
+              </div>
+            </div>
+            <div class="d-md-flex my-md-3 justify-content-between text-center">
+              <div class="swatch bg-white">
+                <p class="m-0 p-4 px-sm-2">White</p>
+              </div>
+              <div class="swatch bg-gray-100">
+                <p class="m-0 p-4 px-sm-2">Gray 100</p>
+              </div>
+              <div class="swatch bg-gray-200">
+                <p class="m-0 p-4 px-sm-2">Gray 200</p>
+              </div>
+              <div class="swatch bg-gray-400">
+                <p class="m-0 p-4 px-sm-2">Gray 400</p>
+              </div>
+              <div class="swatch bg-gray-500">
+                <p class="m-0 p-4 px-sm-2">Gray 500</p>
+              </div>
+            </div>
+            <div class="d-md-flex my-md-3 justify-content-between text-center">
+              <div class="swatch bg-gray-600 text-light">
+                <p class="m-0 p-4 px-sm-2">Gray 600</p>
+              </div>
+              <div class="swatch bg-gray-700 text-light">
+                <p class="m-0 p-4 px-sm-2">Gray 700</p>
+              </div>
+              <div class="swatch bg-gray-800 text-light">
+                <p class="m-0 p-4 px-sm-2">Gray 800</p>
+              </div>
+              <div class="swatch bg-gray-900 text-light">
+                <p class="m-0 p-4 px-sm-2">Gray 900</p>
+              </div>
+              <div class="swatch bg-black text-light">
+                <p class="m-0 p-4 px-sm-2">Black</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    <footer>
+    </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>

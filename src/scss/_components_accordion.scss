@@ -1,0 +1,75 @@
+﻿.custom-accordion {
+  border: none !important;
+
+  .card {
+    border-radius: 0 !important;
+    border: none !important;
+    border-top: .5px solid #ccc !important;
+
+    .card-header {
+      border: none !important;
+      background-color: transparent !important;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+
+      a {
+        border: none !important;
+        border-left: 5px solid #ccc !important;
+        font-weight: 700;
+        color: black;
+        padding: 5px;
+        width: 100%;
+        display: block;
+        font-size: 13px;
+
+        &:hover {
+          color: map-get($theme-colors, 'primary');
+          cursor: pointer;
+          text-decoration: none !important;
+        }
+
+        &[aria-expanded="false"] {
+
+          &:first-child {
+            border-top: .5px solid #ccc;
+          }
+        }
+
+        &[aria-expanded="true"] {
+          border-left: 5px solid map-get($theme-colors, 'primary') !important;
+
+          &:first-child {
+            border-top: .5px solid #ccc;
+          }
+        }
+
+        &:last-child{
+          border-bottom: .5px solid #ccc !important;
+        }
+      }
+    }
+  }
+
+  .card-body {
+    border-left: 5px solid map-get($theme-colors, 'primary') !important;
+    margin: 0;
+    padding: 0;
+
+    &:last-of-type {
+      border-bottom: .5px solid #ccc;
+    }
+
+    a {
+      color: $black;
+
+      &.nav-link {
+        padding: 2px 8px;
+      }
+
+      &:hover {
+        color: map-get($theme-colors, 'primary');
+      }
+    }
+  }
+}

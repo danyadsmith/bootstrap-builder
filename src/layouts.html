@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <title>Style Guide</title>
+</head>
+
+<body>
+  <body class="theme">
+    <header class="jumbotron">
+      <div class="container">
+      <h1 class="display-1">Style Guide</h1>
+      <p class="lead">This manual of style outlines standards for the design of pages, components, and elements in web sites and web applications developed for our organization.</p>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logo.html">Logo and Brand</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="layouts.html">Page Layouts</a>
+        </li>
+      </ul>
+      </div>
+    </header>
+    <div class="page-content container">
+
+      <div class="card my-3">
+        <div class="card-header">
+          <h3 class="d-flex justify-content-between">
+            <span><i class="fas fa-copy"></i> Page Layouts</span>
+            <a data-toggle="collapse" href="#collapse-layouts" aria-expanded="true" 
+               aria-controls="collapse-layouts" id="heading-layouts" class="d-block">
+              <i class="fa fa-chevron-down pull-right"></i>
+            </a>
+          </h3>
+        </div>
+        <div id="collapse-layouts" class="collapse show" aria-labelledby="heading-layouts">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+              </div>
+              <div class="col-md-6">
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+    <footer>
+    </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>
+

@@ -1,0 +1,27 @@
+﻿.card {
+
+  .card-header {
+    background-color: map-get($theme-colors, 'light');
+    font-family: 'Open Sans', sans-serif;
+
+    a {
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+    }
+
+    a:hover {
+      color: map-get($theme-colors, 'primary');
+    }
+
+    .collapsed i.fa-chevron-down {
+      transition: .3s transform ease-in-out;
+      transform: rotate(180deg);
+    }
+    
+  }
+
+  .card-body {
+
+  }
+}

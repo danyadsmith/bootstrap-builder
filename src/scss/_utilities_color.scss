@@ -1,0 +1,234 @@
+﻿.red {
+  color: $red;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.vermilion {
+  color: $vermilion;
+}
+
+.bg-vermilion {
+  background-color: $vermilion;
+}
+
+.orange {
+  color: $orange;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.amber {
+  color: $amber;
+}
+
+.bg-amber {
+  background-color: $amber;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.chartreuse {
+  color: $chartreuse;
+}
+
+.bg-chartreuse {
+  background-color: $chartreuse;
+}
+
+.green {
+  color: $green;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.viridian {
+  color: $viridian;
+}
+
+.bg-viridian {
+  background-color: $viridian;
+}
+
+.teal {
+  color: $teal;
+}
+
+.bg-teal {
+  background-color: $teal;
+}
+
+.cyan {
+  color: $cyan;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+}
+
+.blue {
+  color: $blue;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.indigo {
+  color: $indigo;
+}
+
+.bg-indigo {
+  background-color: $indigo;
+}
+
+.violet {
+  color: $violet;
+}
+
+.bg-violet {
+  background-color: $violet;
+}
+
+.purple {
+  color: $purple;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
+.magenta {
+  color: $magenta;
+}
+
+.bg-magenta {
+  background-color: $magenta;
+}
+
+.pink {
+  color: $pink;
+}
+
+.bg-pink {
+  background-color: $pink;
+}
+
+.brown {
+  color: $brown;
+}
+
+.bg-brown {
+  background-color: $brown;
+}
+
+.gray-100 {
+  color: $gray-100;
+}
+
+.bg-gray-100{
+  background-color: $gray-100;
+}
+
+.gray-200 {
+  color: $gray-200;
+}
+
+.bg-gray-200{
+  background-color: $gray-200;
+}
+
+.gray-300 {
+  color: $gray-300;
+}
+
+.bg-gray-300{
+  background-color: $gray-300;
+}
+
+.gray-400 {
+  color: $gray-400;
+}
+
+.bg-gray-400{
+  background-color: $gray-400;
+}
+
+.gray-500 {
+  color: $gray-500;
+}
+
+.bg-gray-500{
+  background-color: $gray-500;
+}
+
+.gray-600 {
+  color: $gray-600;
+}
+
+.bg-gray-600{
+  background-color: $gray-600;
+}
+
+.gray-700 {
+  color: $gray-700;
+}
+
+.bg-gray-700{
+  background-color: $gray-700;
+}
+
+.gray-800 {
+  color: $gray-800;
+}
+
+.bg-gray-800{
+  background-color: $gray-800;
+}
+
+.gray-900 {
+  color: $gray-900;
+}
+
+.bg-gray-900{
+  background-color: $gray-900;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.black {
+  color: $black;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.white {
+  color: white;
+}
+
+.swatch {
+  width: 150px;
+}
+
+@include media-breakpoint-down(sm) {
+  .swatch {
+    width: 100%;
+  }
+}
+
