@@ -1,8 +1,9 @@
-$theme-color-001:   #000000;
-$theme-color-002:   #cccccc;
-$theme-color-003:   #666666;
-$theme-color-light: #f8f9fa;
-$theme-color-dark:  #343a40;
+// Custom Named Colors
+
+
+
+
+// Accent Colors (Color Wheel)
 
 $red:        hsla(354, 70%, 54%, 1);  // #DC3545
 $vermilion:  hsla(14, 100%, 56%, 1);  // #FF5520
@@ -21,6 +22,8 @@ $magenta:    hsla(319, 73%, 47%, 1);  // #CE2097
 $pink:       hsla(1, 100%, 75%, 1);   // #ff8381
 $brown:      hsla(32, 75%, 22%, 1);   // #643C0E
 
+// Grayscale Colors
+
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -33,6 +36,13 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
+// Theme Colors
+
+$theme-color-001:   #000000;
+$theme-color-002:   #cccccc;
+$theme-color-003:   #666666;
+$theme-color-light: #f8f9fa;
+$theme-color-dark:  #343a40;
 $colors: (
   "red": $red,
   "vermilion": $vermilion,
@@ -50,6 +60,8 @@ $colors: (
   "teal": $teal,
   "pink": $pink,
   "brown": $brown,
+  "black": $black,
+  "white": $white,
 );
 
 $theme-colors: (
