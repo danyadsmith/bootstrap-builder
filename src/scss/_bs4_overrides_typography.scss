@@ -1,3 +1,6 @@
-$font-family-serif:           "Goudy Old Style", Garamond, Georgia, serif;
+$font-family-serif:           Georgia, "Goudy Old Style", Garamond, serif;
 $font-family-display:         "Helvetica Neue", sans-serif;
 
+$font-size-base: 1rem;
+$font-size-lg: ($font-size-base * 1.25);
+$font-size-sm: ($font-size-base * .875);

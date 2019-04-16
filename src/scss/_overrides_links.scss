@@ -1,1 +1,59 @@
-﻿
+﻿address a,
+article a,
+blockquote a,
+p a,
+td a {
+  color: map-get($theme-colors, 'primary');
+
+  &:hover {
+    text-decoration: none !important;
+    border-bottom: 1px dotted;
+  }
+
+  &.text-primary:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'primary') !important;
+  }
+
+  &.text-secondary:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'secondary') !important;
+  }
+
+  &.text-light:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'light') !important;
+  }
+
+  &.text-dark:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'dark') !important;
+  }
+
+  &.text-white:hover {
+    border-bottom: 1px dotted map-get($colors, 'white') !important;
+  }
+
+  &.text-success:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'success') !important;
+  }
+
+  &.text-info:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'info') !important;
+  }
+
+  &.text-warning:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'warning') !important;
+  }
+
+  &.text-danger:hover {
+    border-bottom: 1px dotted map-get($theme-colors, 'danger') !important;
+  }
+}
+
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}

@@ -10,13 +10,13 @@ $amber:      hsla(45, 100%, 52%, 1);  // #ffc000
 $yellow:     hsla(53, 100%, 57%, 1);  // #FFe724
 $chartreuse: hsla(88, 81%, 43%, 1);   // #72C415
 $green:      hsla(134, 61%, 41%, 1);  // #28A745
-$teal:       hsla(161, 70%, 46%, 1);  // #23c895
 $viridian:   hsla(184, 72%, 43%, 1);  // #1EB1BB
 $blue:       hsla(201, 99%, 39%, 1);  // #0181C5
 $indigo:     hsla(224, 92%, 28%, 1);  // #062989
 $violet:     hsla(253, 53%, 50%, 1);  // #583CC1
 $purple:     hsla(277, 63%, 38%, 1);  // #7024A0
 $magenta:    hsla(319, 73%, 47%, 1);  // #CE2097
+$teal:       hsla(161, 70%, 46%, 1);  // #23c895
 $pink:       hsla(1, 100%, 75%, 1);   // #ff8381
 $brown:      hsla(32, 75%, 22%, 1);   // #643C0E
 
@@ -36,11 +36,11 @@ $black:    #000;
 
 // Theme Colors
 
-$theme-color-001:   #000000;
-$theme-color-002:   #cccccc;
-$theme-color-003:   #666666;
-$theme-color-light: #f8f9fa;
-$theme-color-dark:  #343a40;
+$theme-color-001:   $black;
+$theme-color-002:   $gray-500;
+$theme-color-003:   $gray-700;
+$theme-color-light: $gray-100;
+$theme-color-dark:  $gray-900;
 
 $colors: (
   "red": $red,
@@ -51,6 +51,7 @@ $colors: (
   "chartreuse": $chartreuse,
   "green": $green,
   "viridian": $viridian,
+  "cyan": $viridian,
   "blue": $blue,
   "indigo": $indigo,
   "violet": $violet,
