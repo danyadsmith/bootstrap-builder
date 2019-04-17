@@ -38,9 +38,10 @@
 
         &[aria-expanded="true"] {
           border-left: 5px solid map-get($theme-colors, 'primary') !important;
+          border-top: 0 !important;
 
           &:first-child {
-            border-top: .5px solid #ccc;
+            border-bottom: 1px solid map-get($theme-colors, 'primary') !important;
           }
         }
 
