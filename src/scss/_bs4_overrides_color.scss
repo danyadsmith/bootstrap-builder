@@ -19,6 +19,11 @@ $magenta:    hsla(319, 73%, 47%, 1);  // #CE2097
 $teal:       hsla(161, 70%, 46%, 1);  // #23c895
 $pink:       hsla(1, 100%, 75%, 1);   // #ff8381
 $brown:      hsla(32, 75%, 22%, 1);   // #643C0E
+$bronze:     hsla(41, 30%, 62%, 1);   // #BBA981
+$beige:      hsla(36, 54%, 84%, 1);   // #ECDABF
+$warm-gray:  hsla(320, 7%, 82%, 1);   // #D4CED2
+$cool-gray:  hsla(206, 15%, 82%, 1);  // #C9D1D7
+$french-gray:hsla(0, 8%, 69%, 1);     // #B5A9A9
 
 // Grayscale Colors
 
@@ -36,10 +41,10 @@ $black:    #000;
 
 // Theme Colors
 
-$theme-color-001:   $black;
-$theme-color-002:   $gray-500;
+$theme-color-001:   mix($warm-gray, $black, 20%);
+$theme-color-002:   $gray-300;
 $theme-color-003:   $gray-700;
-$theme-color-light: $gray-100;
+$theme-color-light: lighten($warm-gray, 15%);
 $theme-color-dark:  $gray-900;
 
 $colors: (
@@ -58,10 +63,15 @@ $colors: (
   "purple": $purple,
   "magenta": $magenta,
   "teal": $teal,
+  "beige": $beige,
   "pink": $pink,
   "brown": $brown,
+  "bronze": $bronze,
+  "cool-gray": $cool-gray,
+  "warm-gray": $warm-gray,
+  "french-gray": $french-gray, 
   "black": $black,
-  "white": $white,
+  "white": $white
 );
 
 $theme-colors: (
@@ -70,9 +80,9 @@ $theme-colors: (
   "info": $theme-color-003,
   "light": $theme-color-light,
   "dark": $theme-color-dark,
-  "success": $green,
-  "warning": $amber,
-  "danger": $red
+  "success": mix($black, $green, 15%),
+  "warning": mix($black, $amber, 5%),
+  "danger": mix($black, $red, 15%)
 );
 
 $body-bg:                   $white;
